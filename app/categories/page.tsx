@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { GearGrid } from "@/components/gear/GearGrid";
 import { SkeletonCard } from "@/components/shared/Skeleton";
-import { API_BASE } from "@/lib/api";
+import { API_BASE } from "@/lib/api-base";
 import { ENDPOINTS } from "@/lib/endpoints";
 import type { Category, GearItem, ApiEnvelope, ListResponse } from "@/lib/types";
 import Link from "next/link";
